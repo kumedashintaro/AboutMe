@@ -23,4 +23,25 @@
         android:contentDescription="@string/yellow_star"
         app:srcCompat="@android:drawable/btn_star_big_on" />
 
+    <ScrollView
+        android:id="@+id/bio_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/bio_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingLeft="16sp"
+            android:paddingRight="16sp"
+            android:text="@string/bio" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
 </LinearLayout>
